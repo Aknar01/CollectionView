@@ -74,16 +74,24 @@
 		6490CF9B298941FE007C65F1 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				64A1F684298B0C8900FE35EA /* views */,
 				6490CF9C298941FE007C65F1 /* AppDelegate.swift */,
 				6490CF9E298941FE007C65F1 /* SceneDelegate.swift */,
 				6490CFA0298941FE007C65F1 /* ViewController.swift */,
-				64A1F674298ACA8800FE35EA /* SmallCell.swift */,
-				64A1F676298ACAAB00FE35EA /* BigCell.swift */,
 				6490CFA5298941FF007C65F1 /* Assets.xcassets */,
 				6490CFA7298941FF007C65F1 /* LaunchScreen.storyboard */,
 				6490CFAA298941FF007C65F1 /* Info.plist */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		64A1F684298B0C8900FE35EA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				64A1F674298ACA8800FE35EA /* SmallCell.swift */,
+				64A1F676298ACAAB00FE35EA /* BigCell.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		6A4A874A0CC6020843303323 /* Frameworks */ = {
