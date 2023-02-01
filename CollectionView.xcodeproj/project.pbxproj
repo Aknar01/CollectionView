@@ -13,6 +13,8 @@
 		6490CFA1298941FE007C65F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490CFA0298941FE007C65F1 /* ViewController.swift */; };
 		6490CFA6298941FF007C65F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6490CFA5298941FF007C65F1 /* Assets.xcassets */; };
 		6490CFA9298941FF007C65F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6490CFA7298941FF007C65F1 /* LaunchScreen.storyboard */; };
+		64A1F675298ACA8800FE35EA /* SmallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1F674298ACA8800FE35EA /* SmallCell.swift */; };
+		64A1F677298ACAAB00FE35EA /* BigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1F676298ACAAB00FE35EA /* BigCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		6490CFA5298941FF007C65F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6490CFA8298941FF007C65F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6490CFAA298941FF007C65F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A1F674298ACA8800FE35EA /* SmallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCell.swift; sourceTree = "<group>"; };
+		64A1F676298ACAAB00FE35EA /* BigCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCell.swift; sourceTree = "<group>"; };
 		AAF8F8B223D2B835A8BA2D6E /* Pods_CollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EE7D49073D3639FA7CE120 /* Pods-CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionView.debug.xcconfig"; path = "Target Support Files/Pods-CollectionView/Pods-CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		D2686D83F5B7AE7783E9C512 /* Pods-CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionView.release.xcconfig"; path = "Target Support Files/Pods-CollectionView/Pods-CollectionView.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +50,6 @@
 				D1EE7D49073D3639FA7CE120 /* Pods-CollectionView.debug.xcconfig */,
 				D2686D83F5B7AE7783E9C512 /* Pods-CollectionView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -74,6 +77,8 @@
 				6490CF9C298941FE007C65F1 /* AppDelegate.swift */,
 				6490CF9E298941FE007C65F1 /* SceneDelegate.swift */,
 				6490CFA0298941FE007C65F1 /* ViewController.swift */,
+				64A1F674298ACA8800FE35EA /* SmallCell.swift */,
+				64A1F676298ACAAB00FE35EA /* BigCell.swift */,
 				6490CFA5298941FF007C65F1 /* Assets.xcassets */,
 				6490CFA7298941FF007C65F1 /* LaunchScreen.storyboard */,
 				6490CFAA298941FF007C65F1 /* Info.plist */,
@@ -206,6 +211,8 @@
 				6490CFA1298941FE007C65F1 /* ViewController.swift in Sources */,
 				6490CF9D298941FE007C65F1 /* AppDelegate.swift in Sources */,
 				6490CF9F298941FE007C65F1 /* SceneDelegate.swift in Sources */,
+				64A1F677298ACAAB00FE35EA /* BigCell.swift in Sources */,
+				64A1F675298ACA8800FE35EA /* SmallCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
