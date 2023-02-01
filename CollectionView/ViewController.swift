@@ -8,9 +8,6 @@
 import UIKit
 import SnapKit
 
-import UIKit
-import SnapKit
-
 class ViewController: UIViewController {
     
     private lazy var smallCollectionView: UICollectionView = {
@@ -59,6 +56,7 @@ class ViewController: UIViewController {
 }
 
 //MARK: - Table view data source methods
+
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
